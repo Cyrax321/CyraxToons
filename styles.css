@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.cartoon-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cartoon-card:hover {
+    transform: translateY(-5px);
+}
+
+.cartoon-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cartoon-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cartoon-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.cartoon-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.cartoon-card a:hover {
+    text-decoration: underline;
+}
